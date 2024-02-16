@@ -1,0 +1,13 @@
+{
+  "name": "sb-nightwatch-no-cucumber",
+  "version": "1.0.0",
+  "description": "Sample automation suite",
+  "scripts": {
+    "test": "npx nightwatch ./test/factorial.js"
+  },
+  "author": "Kieran Marriott",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^3.4.1"
+  }
+}
